@@ -1,4 +1,4 @@
-# Cyberpunk Cafe 
+# One Shot Chat GPT
 
 **Challenge Type: Prompt Inject** 
 
