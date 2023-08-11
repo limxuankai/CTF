@@ -16,7 +16,7 @@ Without furtherado, this is my write up:
 
 ### All solved challenge:
 
-1. Cyberpunk cafe [Link]
+1. Cyberpunk cafe [Link](https://github.com/limxuankai/CTF/blob/main/TencableCTF2023/Stego/Cyberpunk_Cafe.md)
 2. One Shot ChatGPT [Link](https://github.com/limxuankai/CTF/blob/main/TencableCTF2023/Misc/OneShotChatGPT.md)
 3. Better One Shot ChatGPT [Link](https://github.com/limxuankai/CTF/blob/main/TencableCTF2023/Misc/BetterOneShotChatGPT.md)
 
