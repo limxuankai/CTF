@@ -3,5 +3,5 @@
 | Challenge  | Status | Flag | Writeup
 | ------------- | ------------- |---------| -----|
 | Cat Viewer | Unsolved  | |    |
-| Ancient Scrawls  | Unsolved  |    | Unsolved   |
-| pi is overratEd | Unsolved |      |  Unsolved   |
+| Rose  | Unsolved  |    | Unsolved   |
+| Bad Waf No Donut | Unsolved |      |  Unsolved   |
