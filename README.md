@@ -1,2 +1,2 @@
 # CTF
-Writeups for all CTF I have participanted. 
+Writeups for all CTF I have participated. 
