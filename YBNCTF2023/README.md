@@ -6,12 +6,7 @@ You get the YBN CTF 2023.
 <br>
 May allah bless our soul.
 
-
-
-![image](https://github.com/limxuankai/CTF/assets/95482591/1ddc2ceb-a980-4644-895c-5cb51c9e0543)
-
-See with this, I can say that we are average people. Average like my height :/
-
+![image](https://github.com/limxuankai/CTF/assets/95482591/55a71b51-6d49-4ef5-86d5-923ed3e4486d)
 
 
 Alas, here is my write up: 
