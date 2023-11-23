@@ -9,5 +9,5 @@
 | ohohnono | Unsolved |      |  WIP  |
 | I love loops | Unsolved |      |  WIP  |
 | Hardware is Fun! | Unsolved |      |  WIP  |
-| Chat with Max!| Unsolved |      |  WIP  |
+| Chat with Max!| Solved |      |  WIP  |
 
