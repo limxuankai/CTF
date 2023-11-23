@@ -14,20 +14,21 @@ Encryption Code:
 `const164 = chr(100) + chr(101) + chr(102) + chr(105) + chr(110) + chr(105) + chr(116) + chr(101) + chr(108) + chr(121) + chr(110) + chr(111) + chr(116) + chr(95) + chr(97) + chr(107) + chr(101) + chr(121) + chr(95) + chr(116) + chr(114) + chr(117) + chr(115) + chr(116) + chr(95) + chr(105) + chr(51) + chr(104) + chr(83) + chr(117) + chr(79) + chr(108)`
 `const188 = chr(102) + chr(108) + chr(97) + chr(103) + chr(46) + chr(116) + chr(120) + chr(116)`
 
-`def const645():`
-    `return open(const188, "r").read()`
-`def const346(const264):`
-    `return __import__(chr(98) + chr(97) + chr(115) + chr(101) + chr(54) + chr(52)).b64encode(const264.encode()).decode()`
+```def const645():
+    return open(const188, "r").read()
+def const346(const264):
+    return __import__(chr(98) + chr(97) + chr(115) + chr(101) + chr(54) + chr(52)).b64encode(const264.encode()).decode()
 
-`def const905(const264, const164):`
-    `return (lambda x, y: ''.join([chr(ord(const153)^ord(const351)) for (const153, const351) in zip(x, y)]))(const264, const164)`
+def const905(const264, const164):
+    return (lambda x, y: ''.join([chr(ord(const153)^ord(const351)) for (const153, const351) in zip(x, y)]))(const264, const164)
 
-`const264 = const645()`
-`const923 = const346(const264)`
-`print(const923)`
-`const024 = const905(const923, const164)`
-`with open(const188, "wb") as f:`
-    `f.write(const024.encode())`
+const264 = const645()
+const923 = const346(const264)
+print(const923)
+const024 = const905(const923, const164)
+with open(const188, "wb") as f:
+    f.write(const024.encode())
+```
 
 Flag: 
 
