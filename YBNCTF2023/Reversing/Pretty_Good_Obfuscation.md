@@ -38,9 +38,9 @@ Flag:
 ## Solution 
 
 1) Convert all the chr(numbers) into ascii characters, const character into  ascii and simply it. You should get the following
-`import base64 as b64`
-`file_key = "definitelynot_akey_trust_i3hSuOl"`
-`file_extension = "flag.txt"`
+`import base64 as b64`  
+`file_key = "definitelynot_akey_trust_i3hSuOl"`  
+`file_extension = "flag.txt"`  
 
 `def read():`
     `return open(file_key + "." + file_extension, "r").read()`
@@ -57,15 +57,36 @@ Flag:
 `with open(file_key + "." + file_extension, "wb") as file:`
     `file.write(result.encode())`
 
-> Explaination time: Basically code just base 64 encoded the flag before XOR ing it
-> So the plan is just to reverse the code via converting it into bytes, XOR it with the key and base64 decode it.
+> Explaination time: Basically code just base 64 encoded the flag before XOR ing it  
+> So the plan is just to reverse the code via converting it into bytes, XOR it with the key and base64 decode it.  
 2) Write a script for this: 
 
-3) If you don't have it, just ``` sudo apt install netcat```
-4) Flag: YBN{HE110_woRLd_FRom_nE7C@7}
+`import base64`  
+
+`XOR_Key = b"definitelynot_akey_trust_i3hSuOl"`  
+`Path_Flag = "flag"`  
+
+`def encode(file):`  
+    `return base64.b64encode(file.encode()).decode()`
+
+`def XOR(original, Key):`
+    `result = bytearray()`
+    `for x, y in zip(original, Key):`
+        `result.append( x ^ y)`
+    `return bytes(result)`
+
+
+`Encoded_File = (open(Path_Flag, "rb").read())`
+`XORED_FILE = XOR(Encoded_File, XOR_Key)`
+`Ans = base64.b64decode(XORED_FILE).decode("utf-8")`
+`with open(Path_Flag, "w") as f:`
+    `f.write(Ans)`
+
+3) Run the script
+4) Find the flag in the flag file: YBN{o8fu5cA7t1On_1s_fUn}
 
 ### P.S 
 
-They even give a 100 pt hint to do give errr this: https://nmap.org/ncat/
-<br>
-This is one of the better hints, the other hints hurt my soul...
+This challenge rotted my brain by 50%. <br>
+There are a moment where I said so what's the problem here? <br>
+Turns out being 18 causes dementia
