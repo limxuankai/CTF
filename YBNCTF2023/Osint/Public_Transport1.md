@@ -5,7 +5,7 @@
 ## Challenge
 
 Where could I be? YBN{mrt_station_code}
-![Image](image_pt1.jpeg)
+![Image](Public_Transport1.jpeg)
 
 ## Solution 
 
