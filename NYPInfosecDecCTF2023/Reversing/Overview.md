@@ -3,10 +3,9 @@
 
 | Challenge  | Status | Flag | Writeup
 | ------------- | ------------- |---------| -----|
-| Pretty Good Obfusication | Solved  |    |  [Here](https://github.com/limxuankai/CTF/blob/main/YBNCTF2023/Reversing/Pretty_Good_Obfuscation.md) |
-| Vertical Farming  | Unsolved |    | WIP  |
-| Blue Sky | Unsolved |      |  WIP  |
+| RE Adventure 1 | Solved  |  NYP{RE_4dven7uRE_7h3_b4siCs} |  [Here](https://github.com/limxuankai/CTF/blob/main/NYPInfosecDecCTF2023/Reversing/RE_Adventure.md) |
+| Flag Guesser  | Unsolved |    | WIP  |
+| esreveR | Unsolved |      |  WIP  |
 | Jumpy | Unsolved |      |  WIP  |
-| Roblox Obfuscated Flag | Unsolved |      |  WIP  |
-| Flag Server | Unsolved |      |  WIP  |
+| RE Adventure 2 | Unsolved |      |  WIP  |
 
