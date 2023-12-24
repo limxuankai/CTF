@@ -1,6 +1,6 @@
 # Advertisments
 
-**Challenge Type: Decrypting **  
+**Challenge Type: Analysing Drive**  
 
 ## Challenge
 
