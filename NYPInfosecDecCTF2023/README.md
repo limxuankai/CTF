@@ -6,7 +6,7 @@ Fun fact: IM NOT MENTALLY WELL
 <br>
 
 
-![TOP 10](image.png)
+![Alt text](<Screenshot 2023-12-24 220118.png>)
 
 <br>
 
